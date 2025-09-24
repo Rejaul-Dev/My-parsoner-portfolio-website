@@ -1,0 +1,26 @@
+@media (max-width: 768px) {
+  .hero-container {
+    flex-direction: column;
+    text-align: center;
+    padding-top: 8rem;
+  }
+  .hero_content {
+    padding-right: 0;
+    margin-bottom: 3rem;
+  }
+  .profile_img {
+    width: 280px;
+    height: 280px;
+  }
+  .hero_img::after {
+    width: calc(280px + 5px);
+    height: calc(280px + 5px);
+  }
+  .nav-menu {
+    display: none;
+  }
+  .logo {
+    font-size: 1.5rem;
+    padding-left: 2rem;
+  }
+}
